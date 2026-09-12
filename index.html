@@ -1,0 +1,918 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>不登校を、笑いながら越えていく。〜子どもを支える3ヶ月〜｜ひら先生</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Noto+Serif+JP:wght@400;500;600;700;800;900&family=Shippori+Mincho:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            teal: {
+              DEFAULT: '#008080',
+              main: '#008080',
+              deep: '#006B6B',
+              pale: '#E8F4F2',
+              50: '#F2F8F8',
+              100: '#E8F4F2',
+              200: '#C2E3DF',
+              300: '#8AC3BD',
+              400: '#4DA29C',
+              500: '#008080',
+              600: '#006B6B',
+              700: '#005757',
+              800: '#004242',
+            },
+            ivory: {
+              DEFAULT: '#FAF8F3',
+              warm: '#FAF8F3',
+            },
+            gold: {
+              DEFAULT: '#C6A15B',
+              warm: '#C6A15B',
+              50: '#FAF6ED',
+              100: '#F5EDDB',
+              200: '#EADBB7',
+              500: '#C6A15B',
+              600: '#B28E46',
+            },
+            charcoal: {
+              DEFAULT: '#333333',
+              body: '#3D4141',
+            },
+            baseBg: '#FAF8F3',
+            brand: {
+              50: '#F2F8F8',
+              100: '#E8F4F2',
+              200: '#C2E3DF',
+              300: '#8AC3BD',
+              400: '#4DA29C',
+              500: '#008080',
+              600: '#006B6B',
+              700: '#005757',
+              800: '#004242',
+              900: '#002E2E',
+            },
+            cta: {
+              DEFAULT: '#008080',
+              500: '#008080',
+              600: '#006B6B',
+              700: '#005757',
+            },
+            leaf: {
+              50: '#F2F8F8',
+              100: '#E8F4F2',
+              500: '#008080',
+              700: '#006B6B'
+            },
+            deep: '#006B6B'
+          },
+          fontFamily: {
+            sans: ['"Noto Sans JP"', 'sans-serif'],
+            maru: ['"Noto Serif JP"', '"Shippori Mincho"', '"Yu Mincho"', '"Hiragino Mincho ProN"', 'serif'],
+            mincho: ['"Noto Serif JP"', '"Shippori Mincho"', '"Yu Mincho"', '"Hiragino Mincho ProN"', 'serif'],
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+    body {
+      background-color: #FAF8F3;
+      color: #333333;
+      line-height: 1.9;
+    }
+    .soft-shadow {
+      box-shadow: 0 10px 30px -10px rgba(0, 107, 107, 0.08);
+    }
+    .gentle-border {
+      border: 1px solid rgba(0, 128, 128, 0.2);
+    }
+    .font-mincho {
+      font-feature-settings: "palt";
+    }
+  </style>
+</head>
+<body class="font-sans antialiased text-[#333333] bg-[#FAF8F3] selection:bg-[#E8F4F2]">
+
+  <!-- ヘッダーバナー（ディープティール #006B6B） -->
+  <div class="sticky top-0 z-50 bg-[#006B6B] text-white shadow-md border-b border-[#005757]">
+    <div class="max-w-4xl mx-auto px-3 sm:px-4 py-2 sm:py-2.5 flex items-center justify-center text-center">
+      <p class="text-[11px] min-[360px]:text-xs sm:text-sm font-bold tracking-tight sm:tracking-normal text-white whitespace-nowrap">
+        【募集開始 9月23日(水)〜9月30日迄｜<span class="text-amber-200">わずか7日間のみ限定！</span>】
+      </p>
+    </div>
+  </div>
+
+  <!-- ファーストビュー (Hero Section) -->
+  <header class="relative overflow-hidden bg-gradient-to-b from-[#FAF8F3] via-white to-[#FAF8F3] pt-12 pb-20 sm:pt-16 sm:pb-28">
+    <div class="absolute -top-24 -right-24 w-96 h-96 bg-[#008080]/10 rounded-full blur-3xl pointer-events-none"></div>
+    <div class="absolute -bottom-20 -left-20 w-80 h-80 bg-[#C6A15B]/10 rounded-full blur-2xl pointer-events-none"></div>
+
+    <div class="max-w-3xl mx-auto px-5 text-center relative z-10">
+      <div class="inline-flex items-center gap-2 bg-white/95 border border-[#008080]/20 text-[#006B6B] px-4 py-1.5 rounded-full text-xs sm:text-sm mb-6 shadow-sm">
+        <i class="fa-solid fa-seedling text-[#008080]"></i>
+        <span>不登校のお子さんを支える保護者の方へ</span>
+      </div>
+
+      <!-- ② メインキャッチコピー（全体中央揃え、「笑いながら越えていく。」一行） -->
+      <h1 class="text-2xl min-[360px]:text-[26px] min-[390px]:text-3xl sm:text-4xl md:text-5xl font-bold font-mincho leading-snug sm:leading-tight text-[#006B6B] mb-6 text-center">
+        <span class="inline-block whitespace-nowrap">不登校を、</span><br />
+        <span class="inline-block whitespace-nowrap text-[#008080]">笑いながら越えていく。</span>
+      </h1>
+
+      <!-- ③ サブキャッチコピー（全体中央揃え、指定の改行・一行） -->
+      <p class="text-[14.5px] min-[360px]:text-base min-[400px]:text-lg sm:text-xl md:text-2xl text-[#333333] font-mincho mb-8 leading-relaxed text-center">
+        <span class="inline-block whitespace-nowrap">もう、ひとりで抱え込まなくて大丈夫。</span><br />
+        <span class="inline-block whitespace-nowrap">あなた自身の笑顔と人生を、</span><br />
+        <span class="inline-block whitespace-nowrap">ここからもう一度動かしませんか？</span>
+      </p>
+
+      <!-- ④ メッセージカード（全体中央揃え、指定の改行・一行） -->
+      <div class="px-3.5 py-6 sm:p-8 bg-white/95 backdrop-blur-md rounded-2xl gentle-border soft-shadow max-w-xl mx-auto mb-8 text-center">
+        <p class="text-[12.5px] min-[360px]:text-[13.5px] min-[390px]:text-[15px] sm:text-base text-[#333333] leading-relaxed font-mincho text-center">
+          <span class="inline-block whitespace-nowrap">子どもを変えるための3ヶ月ではありません。</span><br />
+          <span class="inline-block whitespace-nowrap">あなた自身が、自分の人生の主役に</span><br />
+          <span class="inline-block whitespace-nowrap">戻るための3ヶ月講座です。</span>
+        </p>
+      </div>
+
+      <!-- ストーリーを読む スクロール案内 -->
+      <div class="pt-2">
+        <a href="#sympathy" class="inline-flex items-center justify-center gap-2 text-[#008080] hover:text-[#006B6B] font-bold text-sm sm:text-base px-7 py-3 rounded-full bg-white hover:bg-[#E8F4F2] border border-[#008080]/30 shadow-sm transition duration-200 group">
+          <span>ひら先生の想いを読む</span>
+          <i class="fa-solid fa-arrow-down text-xs transform group-hover:translate-y-0.5 transition-transform duration-200"></i>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- 悩みと共感セクション -->
+  <section id="sympathy" class="pt-16 pb-10 sm:pt-24 sm:pb-16 bg-white">
+    <div class="max-w-2xl mx-auto px-5">
+      <div class="text-center mb-10">
+        <span class="text-[#008080] text-xs tracking-widest uppercase font-semibold">Sympathy</span>
+        <!-- ① 「学校に行ってほしいと願うほど、」一行 -->
+        <h2 class="text-[18px] min-[360px]:text-[19px] min-[390px]:text-xl sm:text-3xl font-bold font-mincho text-[#006B6B] mt-2 leading-snug sm:leading-tight text-center">
+          <span class="inline-block whitespace-nowrap">学校に行ってほしいと願うほど、</span><br />
+          <span class="inline-block whitespace-nowrap">苦しくなっていませんか？</span>
+        </h2>
+        <div class="w-12 h-1 bg-[#008080] mx-auto mt-4 rounded-full"></div>
+      </div>
+
+      <div class="space-y-6 text-base sm:text-lg text-[#3D4141] leading-relaxed">
+        <p>
+          毎朝、布団から起きてこない子どもの背中を見つめながら、
+        </p>
+        
+        <!-- ② 「このままで、本当に大丈夫なのかな……」（入らなければ改行して「こ」の下に「本」） -->
+        <div class="bg-[#FAF8F3] p-5 sm:p-6 rounded-2xl border-l-4 border-[#008080] shadow-sm space-y-2.5 font-bold font-mincho text-[#333333] text-base sm:text-lg">
+          <p>「今日、どうするの？」</p>
+          <p>「学校は？」</p>
+          <p class="leading-relaxed">
+            <span class="block min-[430px]:hidden">
+              <span class="inline-block">「このままで、</span><br />
+              <span class="pl-[1em] inline-block">本当に大丈夫なのかな……」</span>
+            </span>
+            <span class="hidden min-[430px]:inline">
+              「このままで、本当に大丈夫なのかな……」
+            </span>
+          </p>
+        </div>
+
+        <p>
+          そんな不安で頭がいっぱいになり、胸が押しつぶされそうになっていませんか。
+        </p>
+        <p>
+          学校のこと、勉強の遅れ、友達関係、そして子どもの将来。<br />
+          朝から晩まで、気づけば子どものことばかりを考えている。
+        </p>
+        <p>
+          夜遅くまでスマホを握りしめ、ネットの情報を検索し、本を何冊も読みあさり、いろんな人の話を必死に聞いて……。
+        </p>
+        
+        <!-- ③ 「どうしたら、」改行「この子は変わってくれるんだろう？」（「ど」の下に「こ」） -->
+        <div class="bg-[#FAF8F3] p-5 sm:p-6 rounded-2xl border border-[#008080]/20 text-center space-y-3 shadow-sm">
+          <div class="inline-block text-left font-medium text-[#006B6B] text-base sm:text-lg leading-relaxed">
+            <span class="inline-block whitespace-nowrap">「どうしたら、</span><br />
+            <span class="pl-[1em] inline-block whitespace-nowrap">この子は変わってくれるんだろう？」</span>
+          </div>
+          <p class="text-sm text-[#333333]/70">「私の育て方がいけなかったのかな……」</p>
+        </div>
+
+        <p>
+          そんなふうに、出口の見えない暗闇の中で、たったひとりで答えを探し続けてきたのではないでしょうか。
+        </p>
+        
+        <div class="pt-2 sm:pt-3 text-center font-mincho text-[14.5px] min-[360px]:text-[15.5px] min-[390px]:text-[17px] sm:text-lg md:text-xl text-[#006B6B] font-bold leading-relaxed tracking-tight">
+          <p>
+            <span class="inline-block whitespace-nowrap">もう大丈夫。</span><br />
+            <span class="inline-block whitespace-nowrap">まずはどうか、自分を認めてあげてください。</span>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 真の課題提起セクション -->
+  <section class="py-16 sm:py-24 bg-[#FAF8F3] relative">
+    <div class="max-w-2xl mx-auto px-5">
+      <div class="text-center mb-10">
+        <span class="text-[#008080] text-xs tracking-widest uppercase font-semibold">Insight</span>
+        <!-- ④ 「なぜ、どれだけがんばっても」の後に改行 -->
+        <h2 class="text-2xl sm:text-3xl font-bold font-mincho text-[#006B6B] mt-2">
+          なぜ、どれだけがんばっても<br />苦しさが消えなかったのか
+        </h2>
+        <div class="w-12 h-1 bg-[#008080] mx-auto mt-4 rounded-full"></div>
+      </div>
+
+      <div class="space-y-6 text-base sm:text-lg text-[#3D4141] leading-relaxed">
+        <p>
+          どれだけ本を読んでも、どれだけ子どものために尽くしても、なぜか心が晴れない。<br />
+          それは、あなたの愛情が足りないからでも、がんばりが足りないからでもありません。
+        </p>
+
+        <!-- ⑤ 「「子どもを変えよう」と」の後に改行 -->
+        <div class="bg-white p-6 sm:p-8 rounded-2xl border-2 border-[#008080]/20 soft-shadow text-center">
+          <p class="text-sm text-[#008080] font-bold mb-2">たったひとつだけあった、大切なすれ違い</p>
+          <p class="text-xl sm:text-2xl font-bold text-[#006B6B] font-mincho">
+            「子どもを変えよう」と<br />必死になりすぎていたこと。
+          </p>
+        </div>
+
+        <ul class="space-y-3 bg-white p-6 rounded-2xl border border-[#008080]/20 shadow-sm">
+          <li class="flex items-start gap-3">
+            <i class="fa-solid fa-circle-exclamation text-[#C6A15B] mt-1"></i>
+            <span class="text-[#333333]">「学校には行くもの」</span>
+          </li>
+          <li class="flex items-start gap-3">
+            <i class="fa-solid fa-circle-exclamation text-[#C6A15B] mt-1"></i>
+            <span class="text-[#333333]">「行かないと将来困る」</span>
+          </li>
+          <li class="flex items-start gap-3">
+            <i class="fa-solid fa-circle-exclamation text-[#C6A15B] mt-1"></i>
+            <span class="text-[#333333]">「親なんだから、私が何とかしなきゃいけない」</span>
+          </li>
+        </ul>
+
+        <p>
+          そんな思い込みやプレッシャーに縛られ、<br />
+          あなた自身が息苦しくなっていませんでしたか？<br />
+          子どものケアを最優先にして、自分の気持ちや、自分の時間、自分の人生をずっと後回しにしてきませんでしたか？
+        </p>
+        <p class="font-medium text-[#006B6B]">
+          もしかしたら、最初に変えるべきなのは、<br />
+          子どもではないのかもしれません。
+        </p>
+        
+        <div class="p-6 bg-white rounded-2xl border border-[#008080]/15 space-y-2 text-[#333333] text-sm sm:text-base shadow-sm">
+          <p class="font-bold text-[#006B6B]">誤解しないでくださいね。</p>
+          <p>「親がもっとがんばらなきゃいけない」と責めているわけではありません。</p>
+          <p>「親が変われば、子どもも変わる」という安易な話がしたいわけでもありません。</p>
+        </div>
+
+        <p class="text-center font-mincho text-[17px] min-[360px]:text-[19px] min-[390px]:text-xl sm:text-2xl font-bold text-[#008080] pt-4 leading-relaxed">
+          <span class="inline-block whitespace-nowrap">僕が心から伝えたいのは、</span><br />
+          <span class="inline-block whitespace-nowrap">まず、あなた自身が</span><br class="sm:hidden" />
+          <span class="inline-block whitespace-nowrap">元気になることです。</span>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ストーリー＆ビジョン -->
+  <section class="py-16 sm:py-24 bg-white">
+    <div class="max-w-3xl mx-auto px-5">
+      <div class="flex flex-col sm:flex-row items-center sm:items-center gap-5 sm:gap-6 mb-8 text-center sm:text-left">
+        <!-- ひら先生 プロフィール写真（理想のバストアップ丸枠切り抜き ＆ クリックで写真即時反映） -->
+        <div class="relative shrink-0">
+          <input type="file" id="teacher-photo-input" accept="image/*" class="hidden" onchange="previewTeacherPhoto(this)">
+          <div 
+            onclick="document.getElementById('teacher-photo-input').click()" 
+            title="クリックしてお写真を選択"
+            class="w-32 h-32 sm:w-36 sm:h-36 rounded-full overflow-hidden ring-4 ring-[#008080]/20 shadow-lg bg-white cursor-pointer relative group flex items-center justify-center transition-transform hover:scale-105"
+          >
+            <img 
+              id="teacher-avatar-img"
+              src="hirasensei.jpg" 
+              alt="伴走者 ひら先生" 
+              class="w-full h-full object-cover"
+              onerror="this.style.display='none'; document.getElementById('photo-placeholder').style.display='flex';"
+              onload="this.style.display='block'; document.getElementById('photo-placeholder').style.display='none';"
+            >
+            <div id="photo-placeholder" class="absolute inset-0 flex flex-col items-center justify-center bg-[#E8F4F2] text-[#006B6B] text-xs text-center p-2 font-mincho font-bold">
+              <i class="fa-solid fa-camera text-lg mb-1 text-[#008080]"></i>
+              <span class="font-bold text-[11px]">写真を選択</span>
+              <span class="text-[9px] text-[#006B6B]/60">クリック</span>
+            </div>
+            <!-- ホバー時の案内オーバーレイ -->
+            <div class="absolute inset-0 bg-[#006B6B]/60 opacity-0 group-hover:opacity-100 transition-opacity flex flex-col items-center justify-center text-white text-[10px] font-bold">
+              <i class="fa-solid fa-camera mb-0.5"></i>
+              <span>変更する</span>
+            </div>
+          </div>
+          <span class="absolute bottom-0 right-0 z-10 bg-[#008080] text-white text-[10px] font-bold px-2 py-0.5 rounded-full shadow pointer-events-none">講師</span>
+        </div>
+        <div>
+          <span class="text-xs text-[#008080] font-bold uppercase tracking-wider">Teacher's Message</span>
+          <h2 class="text-2xl sm:text-3xl font-bold font-mincho text-[#006B6B]">
+            不登校は、人生をあきらめる理由にはならない
+          </h2>
+          <p class="text-sm text-[#333333]/70 mt-1">伴走者：ひら先生より</p>
+        </div>
+      </div>
+
+      <div class="space-y-6 text-base sm:text-lg text-[#3D4141] leading-relaxed">
+        <p>
+          はじめまして、ひら先生です。
+        </p>
+        <p>
+          不登校になった。学校に行けなくなった。<br />
+          そのとき、まるで目の前が真っ暗になって「人生が終わってしまった」かのように感じる親御さんは少なくありません。
+        </p>
+        <div class="border-y-2 border-[#008080]/20 py-7 sm:py-9 my-8 sm:my-10 text-center">
+          <p class="text-[#333333] font-bold text-base min-[360px]:text-[17px] min-[390px]:text-lg sm:text-xl font-mincho mb-5 sm:mb-6 leading-relaxed">
+            <span class="inline-block whitespace-nowrap">僕は知っています。</span><br />
+            <span class="inline-block whitespace-nowrap">不登校なんかで人生は終わりません。</span>
+          </p>
+          <p class="text-[#008080] font-bold text-[15px] min-[360px]:text-[16px] min-[390px]:text-[17.5px] sm:text-xl md:text-2xl font-mincho leading-relaxed tracking-tight text-center">
+            <span class="inline-block whitespace-nowrap">いやむしろ、</span><br />
+            <span class="inline-block whitespace-nowrap">ここから新しい人生が始まるのだと、</span><br />
+            <span class="inline-block whitespace-nowrap">僕は思うのです。</span>
+          </p>
+        </div>
+        <p>
+          学校に行くことは人生のゴールではありません。<br />
+          子どもが幸せになるための、道のりの１つです。
+        </p>
+        <p>
+          子どもの不登校をきっかけに、親が立ち止まり、これまでの人生や本当に大切にしたいことを見つめ直す。<br />
+          そして、その背中を見た子どもたちが、自ら荷物を背負い、自分の足で壁を越えていく。
+        </p>
+        <p class="font-bold text-[#006B6B] text-lg">
+          そんな未来を、僕はあなたと一緒につくりたいのです。
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 講座コンセプト＆5ステップ -->
+  <section class="py-16 sm:py-24 bg-[#E8F4F2]">
+    <div class="max-w-3xl mx-auto px-5">
+      <div class="text-center mb-12">
+        <span class="text-[#008080] text-xs tracking-widest uppercase font-semibold">Methodology</span>
+        <h2 class="text-[18px] min-[360px]:text-[20px] min-[390px]:text-[22px] sm:text-3xl font-bold font-mincho text-[#006B6B] mt-2 leading-snug sm:leading-tight text-center">
+          <span class="inline-block whitespace-nowrap">子どもをどうにかする前に、</span><br />
+          <span class="inline-block whitespace-nowrap">「私はどう生きたいか」を</span><br class="sm:hidden" />
+          <span class="inline-block whitespace-nowrap">決める3ヶ月</span>
+        </h2>
+        <div class="w-12 h-1 bg-[#008080] mx-auto mt-4 rounded-full"></div>
+      </div>
+
+      <div class="space-y-6 text-base sm:text-lg text-[#3D4141] leading-relaxed mb-12">
+        <p>
+          だからこそ、この講座では<strong class="text-[#006B6B]">「子どもをどう変えるか」は一切考えません。</strong>
+        </p>
+        <p class="leading-relaxed">
+          向き合うのは、あなた自身です。<br />
+          <span class="inline-block">3ヶ月かけてじっくりと見つめるのは、</span><br class="sm:hidden" />
+          <span class="inline-block my-1 sm:my-0"><strong class="text-[#006B6B] bg-white px-2 py-0.5 rounded font-bold whitespace-nowrap border border-[#008080]/20">「私は、これからどう生きたいのか？」</strong></span><br class="sm:hidden" />
+          <span class="inline-block">という問いです。</span>
+        </p>
+        <p>
+          自分の気持ちを知り、自分を縛っていた思い込みに気づき、本当に大切にしたい価値観を思い出す。親として、そして一人の人間としての「自分の軸」を取り戻していきます。
+        </p>
+        <p>
+          親が元気になり、心にふっと余白が生まれると、目の前の景色がガラリと変わります。<br />
+          目の前の子どもの一挙手一投足に振り回されていた自分が、一段高いところから、あたたかいまなざしで子どもを見守れるようになる。
+        </p>
+        <p>
+          必要なときにはそっと手を差し伸べ、必要でないときには信じて見守る。<br />
+          子どもの荒れた言葉や涙も、感情でぶつかり合うのではなく、大きな器で受け止められるようになるのです。
+        </p>
+      </div>
+
+      <!-- 5STEP カード -->
+      <div class="bg-white rounded-3xl p-6 sm:p-10 gentle-border soft-shadow">
+        <!-- ① 3ヶ月の旅（改行）（全5STEP＋番外編） -->
+        <h3 class="text-xl sm:text-2xl font-bold font-mincho text-center text-[#006B6B] mb-8 leading-snug">
+          <span class="inline-block whitespace-nowrap">3ヶ月の旅</span><br class="sm:hidden" />
+          <span class="inline-block whitespace-nowrap text-base sm:text-2xl text-[#333333] sm:text-[#006B6B]">（全5STEP＋番外編）</span>
+        </h3>
+
+        <div class="space-y-6">
+          <!-- STEP 1 -->
+          <div class="flex items-start gap-3.5 sm:gap-4 p-4 rounded-2xl bg-[#FAF8F3] border border-[#008080]/20 shadow-sm">
+            <div class="w-11 h-11 sm:w-12 sm:h-12 rounded-xl bg-[#C6A15B] text-white font-bold flex items-center justify-center shrink-0 shadow-sm text-sm sm:text-base">
+              01
+            </div>
+            <div class="min-w-0 flex-1">
+              <div class="flex items-center gap-2 mb-0.5">
+                <span class="text-[11px] sm:text-xs font-bold text-[#C6A15B] tracking-wider">STEP 01</span>
+                <span class="text-[10px] sm:text-xs bg-[#E8F4F2] text-[#006B6B] px-2 py-0.5 rounded font-medium">過去</span>
+              </div>
+              <h4 class="font-bold text-[#006B6B] font-mincho leading-snug">
+                <span class="text-[15px] sm:text-lg block sm:inline">LOVE LETTER</span>
+                <span class="text-[13px] min-[360px]:text-sm sm:text-base block sm:inline font-normal sm:font-bold text-[#333333] sm:text-[#006B6B] whitespace-nowrap">（過去の自分と向き合う）</span>
+              </h4>
+              <p class="text-xs sm:text-sm text-[#3D4141] mt-1 leading-relaxed">
+                これまでの自分と向き合い、「私なら大丈夫」「この子なら大丈夫」という愛・自信・誇りの土台を取り戻します。
+              </p>
+            </div>
+          </div>
+
+          <!-- STEP 2 -->
+          <div class="flex items-start gap-3.5 sm:gap-4 p-4 rounded-2xl bg-[#FAF8F3] border border-[#008080]/20 shadow-sm">
+            <div class="w-11 h-11 sm:w-12 sm:h-12 rounded-xl bg-[#C6A15B] text-white font-bold flex items-center justify-center shrink-0 shadow-sm text-sm sm:text-base">
+              02
+            </div>
+            <div class="min-w-0 flex-1">
+              <div class="flex items-center gap-2 mb-0.5">
+                <span class="text-[11px] sm:text-xs font-bold text-[#C6A15B] tracking-wider">STEP 02</span>
+                <span class="text-[10px] sm:text-xs bg-[#E8F4F2] text-[#006B6B] px-2 py-0.5 rounded font-medium">現在</span>
+              </div>
+              <h4 class="font-bold text-[#006B6B] font-mincho leading-snug">
+                <span class="text-[15px] sm:text-lg block sm:inline">CHANGE</span>
+                <span class="text-[13px] min-[360px]:text-sm sm:text-base block sm:inline font-normal sm:font-bold text-[#333333] sm:text-[#006B6B] whitespace-nowrap">（思い込みの見つめ直し）</span>
+              </h4>
+              <p class="text-xs sm:text-sm text-[#3D4141] mt-1 leading-relaxed">
+                「学校には行くべき」といった当たり前や思い込みを解きほぐし、自由な選択肢を広げていきます。
+              </p>
+            </div>
+          </div>
+
+          <!-- 番外編 STEP -->
+          <div class="flex items-start gap-3.5 sm:gap-4 p-4 rounded-2xl bg-[#FAF8F3] border border-[#008080]/20 shadow-sm">
+            <div class="w-11 h-11 sm:w-12 sm:h-12 rounded-xl bg-[#008080] text-white font-bold flex items-center justify-center shrink-0 shadow-sm text-xs sm:text-sm">
+              番外
+            </div>
+            <div class="min-w-0 flex-1">
+              <div class="flex items-center gap-2 mb-0.5">
+                <span class="text-[11px] sm:text-xs font-bold text-[#008080] tracking-wider">EXTRA STEP</span>
+                <span class="text-[10px] sm:text-xs bg-[#E8F4F2] text-[#006B6B] px-2 py-0.5 rounded font-medium">特別編</span>
+              </div>
+              <h4 class="font-bold text-[#006B6B] font-mincho leading-snug">
+                <span class="text-[15px] sm:text-lg block sm:inline">番外編ステップ</span>
+                <span class="text-[13px] min-[360px]:text-sm sm:text-base block sm:inline font-normal sm:font-bold text-[#333333] sm:text-[#006B6B] whitespace-nowrap">（学校教育の歴史）</span>
+              </h4>
+              <p class="text-xs sm:text-sm text-[#3D4141] mt-1 leading-relaxed">
+                わたしたちを育んできた学校教育のこれまでとこれからを考え、あたりまえを疑います。
+              </p>
+            </div>
+          </div>
+
+          <!-- STEP 3 -->
+          <div class="flex items-start gap-3.5 sm:gap-4 p-4 rounded-2xl bg-[#FAF8F3] border border-[#008080]/20 shadow-sm">
+            <div class="w-11 h-11 sm:w-12 sm:h-12 rounded-xl bg-[#C6A15B] text-white font-bold flex items-center justify-center shrink-0 shadow-sm text-sm sm:text-base">
+              03
+            </div>
+            <div class="min-w-0 flex-1">
+              <div class="flex items-center gap-2 mb-0.5">
+                <span class="text-[11px] sm:text-xs font-bold text-[#C6A15B] tracking-wider">STEP 03</span>
+                <span class="text-[10px] sm:text-xs bg-[#E8F4F2] text-[#006B6B] px-2 py-0.5 rounded font-medium">関係性</span>
+              </div>
+              <h4 class="font-bold text-[#006B6B] font-mincho leading-snug">
+                <span class="text-[15px] sm:text-lg block sm:inline">HEART</span>
+                <span class="text-[13px] min-[360px]:text-sm sm:text-base block sm:inline font-normal sm:font-bold text-[#333333] sm:text-[#006B6B] whitespace-nowrap">（愛と感謝を取り戻す）</span>
+              </h4>
+              <p class="text-xs sm:text-sm text-[#3D4141] mt-1 leading-relaxed">
+                子どもを変えようとするのを手放し、愛と感謝を軸に親子のつながりをあたたかく再構築します。
+              </p>
+            </div>
+          </div>
+
+          <!-- STEP 4 -->
+          <div class="flex items-start gap-3.5 sm:gap-4 p-4 rounded-2xl bg-[#FAF8F3] border border-[#008080]/20 shadow-sm">
+            <div class="w-11 h-11 sm:w-12 sm:h-12 rounded-xl bg-[#C6A15B] text-white font-bold flex items-center justify-center shrink-0 shadow-sm text-sm sm:text-base">
+              04
+            </div>
+            <div class="min-w-0 flex-1">
+              <div class="flex items-center gap-2 mb-0.5">
+                <span class="text-[11px] sm:text-xs font-bold text-[#C6A15B] tracking-wider">STEP 04</span>
+                <span class="text-[10px] sm:text-xs bg-[#E8F4F2] text-[#006B6B] px-2 py-0.5 rounded font-medium">自己確立</span>
+              </div>
+              <h4 class="font-bold text-[#006B6B] font-mincho leading-snug">
+                <span class="text-[15px] sm:text-lg block sm:inline">MY AXIS</span>
+                <span class="text-[13px] min-[360px]:text-sm sm:text-base block sm:inline font-normal sm:font-bold text-[#333333] sm:text-[#006B6B] whitespace-nowrap">（自分の軸をつくる）</span>
+              </h4>
+              <p class="text-xs sm:text-sm text-[#3D4141] mt-1 leading-relaxed">
+                「どんな親でありたいか」「どんな人間として生きたいか」、誰の正解でもない自分だけの答えを見つけます。
+              </p>
+            </div>
+          </div>
+
+          <!-- STEP 5 -->
+          <div class="flex items-start gap-3.5 sm:gap-4 p-4 rounded-2xl bg-[#FAF8F3] border border-[#008080]/20 shadow-sm">
+            <div class="w-11 h-11 sm:w-12 sm:h-12 rounded-xl bg-[#C6A15B] text-white font-bold flex items-center justify-center shrink-0 shadow-sm text-sm sm:text-base">
+              05
+            </div>
+            <div class="min-w-0 flex-1">
+              <div class="flex items-center gap-2 mb-0.5">
+                <span class="text-[11px] sm:text-xs font-bold text-[#C6A15B] tracking-wider">STEP 05</span>
+                <span class="text-[10px] sm:text-xs bg-[#E8F4F2] text-[#006B6B] px-2 py-0.5 rounded font-medium">未来</span>
+              </div>
+              <h4 class="font-bold text-[#006B6B] font-mincho leading-snug">
+                <span class="text-[15px] sm:text-lg block sm:inline">ALIVE</span>
+                <span class="text-[13px] min-[360px]:text-sm sm:text-base block sm:inline font-normal sm:font-bold text-[#333333] sm:text-[#006B6B] whitespace-nowrap">（これからの人生を生きる）</span>
+              </h4>
+              <p class="text-xs sm:text-sm text-[#3D4141] mt-1 leading-relaxed">
+                子どもの人生に同化するのをやめ、あなた自身の人生をもう一度動かしていきます。
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- ③ 特典バナー（特別特典にアクセントカラー #C6A15B を適用） -->
+        <div class="mt-8 p-4 min-[360px]:p-5 sm:p-6 rounded-2xl bg-[#FAF8F3] border-2 border-[#C6A15B]/50 shadow-sm">
+          <div class="mb-2">
+            <span class="bg-[#C6A15B] text-white text-[10.5px] sm:text-xs font-bold px-2.5 py-0.5 rounded-full shadow-sm inline-block mb-1.5">SPECIAL BONUS</span>
+            <h4 class="font-bold text-[#006B6B] font-mincho text-base sm:text-lg leading-snug">
+              <span class="text-[#C6A15B] font-bold block sm:inline">【特別特典】</span>
+              <span class="inline-block whitespace-nowrap text-[13.5px] min-[360px]:text-[14.5px] min-[390px]:text-base sm:text-lg text-[#006B6B]">個別セッション（1回）プレゼント</span>
+            </h4>
+          </div>
+          <p class="text-xs sm:text-sm text-[#3D4141] leading-relaxed">
+            講座の学びをあなたの状況に合わせ、全体では話しきれない悩みや想いも含めてじっくり個別にお話しできる特別な時間です。
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ベネフィット・3ヶ月後の未来 -->
+  <section class="py-16 sm:py-24 bg-[#FAF8F3]">
+    <div class="max-w-2xl mx-auto px-5">
+      <div class="text-center mb-12">
+        <span class="text-[#008080] text-xs tracking-widest uppercase font-semibold">Future</span>
+        <h2 class="text-2xl sm:text-3xl font-bold font-mincho text-[#006B6B] mt-2">
+          想像してみてください、<br />3ヶ月後のあなたの笑顔を
+        </h2>
+        <div class="w-12 h-1 bg-[#008080] mx-auto mt-4 rounded-full"></div>
+      </div>
+
+      <div class="space-y-6 text-base sm:text-lg text-[#3D4141] leading-relaxed">
+        <p>
+          朝、子どもが起きてこない。<br />
+          以前のあなたなら、不安と焦りで胸が張り裂けそうになっていたはずです。
+        </p>
+
+        <div class="px-4 py-5 sm:p-6 bg-white rounded-2xl border border-[#008080]/20 space-y-3 font-mincho font-bold text-[#333333] shadow-sm">
+          <p class="text-sm text-[#008080] font-bold">でも、3ヶ月後のあなたはどうでしょう。</p>
+          <p class="text-[14px] min-[360px]:text-[15px] sm:text-lg leading-relaxed">
+            <span class="inline-block whitespace-nowrap">子どもが「今日も休む」と言ったとき、</span><br />
+            <span class="inline-block whitespace-nowrap">あなたは優しく笑って、</span><br />
+            <span class="inline-block whitespace-nowrap"><strong class="text-[#008080] text-[15px] min-[360px]:text-[17px] min-[390px]:text-lg sm:text-xl font-bold inline">「そっか。今日はどう過ごす？」</strong><span class="text-xs min-[360px]:text-sm sm:text-base font-normal">と、</span></span><br />
+            <span class="inline-block whitespace-nowrap">穏やかに声をかけてあげています。</span>
+          </p>
+        </div>
+
+        <p class="leading-relaxed text-[13.5px] min-[360px]:text-[14.5px] min-[390px]:text-base sm:text-lg">
+          <span class="inline-block whitespace-nowrap">子どものことだけで頭がいっぱいだった毎日</span><br />
+          <span class="inline-block whitespace-nowrap">から、少しずつ自分の時間を取り戻している。</span><br />
+          好きなカフェに行く。友達とおしゃべりを楽しむ。仕事に打ち込む。新しい学びにワクワクする。<br />
+          「私は今日、何がしたいかな？」と、自分に問いかけられる日々。
+        </p>
+
+        <div class="bg-white px-4 py-5 sm:p-6 rounded-2xl border border-[#008080]/15 my-6 shadow-sm">
+          <p class="text-[#3D4141] leading-relaxed text-[13.5px] min-[360px]:text-[14.5px] min-[390px]:text-[15px] sm:text-base">
+            <span class="inline-block whitespace-nowrap">ある日、リビングで子どもと</span><br />
+            <span class="inline-block whitespace-nowrap">何気ないテレビをみて、ゲラゲラ笑っている。</span><br />
+            <span class="inline-block whitespace-nowrap text-[12.5px] min-[360px]:text-[13.5px] min-[390px]:text-[14.5px] sm:text-base">そのふとした瞬間に、ハッと気づくのです。</span>
+          </p>
+          <p class="text-base min-[360px]:text-[17px] sm:text-xl font-bold font-mincho text-[#006B6B] mt-3 text-center leading-snug">
+            <span class="inline-block whitespace-nowrap">「あれ？私、最近すごく笑ってるな」</span>
+          </p>
+        </div>
+
+        <p>
+          子どもが学校に行ったから笑えているのではありません。<br />
+          <strong class="text-[#006B6B]">あなた自身が元気を取り戻したから、世界の見え方が変わったのです。</strong>
+        </p>
+        <p class="leading-relaxed text-[13.5px] min-[360px]:text-[14.5px] min-[390px]:text-base sm:text-lg">
+          <span class="inline-block whitespace-nowrap">もし子どもがまだ学校に行っていなかった</span><br class="sm:hidden" />
+          <span class="inline-block whitespace-nowrap">としても、「私なら大丈夫。この子なら大丈夫」</span><br />
+          <span class="inline-block whitespace-nowrap">そう心から信じて、どっしりと構えていられる。</span>
+        </p>
+
+        <div class="p-6 bg-white rounded-2xl border-l-4 border-[#008080] my-6 text-[#333333] shadow-sm">
+          <p class="text-sm text-[#333333]/60 mb-1">そんなあなたの背中を見て、ある日子どもがぽつりと言うかもしれません。</p>
+          <p class="text-lg sm:text-xl font-bold font-mincho text-[#008080] leading-snug">
+            <span class="inline-block whitespace-nowrap">「ねえママ、</span><br class="sm:hidden" />
+            <span class="inline-block whitespace-nowrap">大人になるのって楽しそうだね」</span>
+          </p>
+        </div>
+
+        <p>
+          そのとき、胸の奥からじわっとあたたかい涙がこぼれ、<br />
+          「私、自分の人生を楽しめるようになったんだ」と実感するはずです。
+        </p>
+
+        <!-- ストーリー中間メッセージ（あたたかい区切り） -->
+        <div class="mt-12 pt-10 border-t border-[#008080]/20 text-center">
+          <div class="inline-block bg-white px-6 py-5 rounded-2xl border border-[#008080]/20 shadow-sm max-w-lg mx-auto">
+            <p class="font-mincho font-bold text-[#006B6B] text-base min-[360px]:text-[17px] min-[390px]:text-lg sm:text-xl leading-relaxed">
+              <span class="inline-block whitespace-nowrap">あなたとお子さんの「新しい笑顔」を、</span><br class="sm:hidden" />
+              <span class="inline-block whitespace-nowrap">ここから一緒に。</span>
+            </p>
+            <p class="text-xs sm:text-sm text-[#3D4141]/80 mt-2.5 leading-relaxed">
+              子どもを変えようとするのを手放したとき、親子の心にあたたかい余白が生まれます。
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- コールトゥアクション / メッセージ -->
+  <section class="py-16 sm:py-24 bg-white">
+    <div class="max-w-2xl mx-auto px-5 text-center">
+      <h2 class="text-[17px] min-[360px]:text-[18.5px] min-[390px]:text-xl sm:text-3xl font-bold font-mincho text-[#006B6B] leading-snug mb-6 text-center">
+        <span class="inline-block whitespace-nowrap">不登校を「失った時間」ではなく、</span><br />
+        <span class="inline-block whitespace-nowrap">「人生を見つめ直す時間」へ</span>
+      </h2>
+
+      <div class="space-y-4 text-base sm:text-lg text-[#3D4141] leading-relaxed text-left max-w-xl mx-auto mb-8">
+        <p class="leading-relaxed text-[12.5px] min-[360px]:text-[13.5px] min-[390px]:text-[14.5px] sm:text-base">
+          <span class="inline-block whitespace-nowrap">今はまだ、先が見えなくて不安かもしれません。</span><br />
+          <span class="inline-block whitespace-nowrap">でも、あきらめないでください。</span>
+        </p>
+        <div class="p-5 sm:p-6 bg-[#FAF8F3] rounded-2xl border border-[#008080]/20 text-[#006B6B] space-y-3.5 text-xs min-[360px]:text-sm sm:text-base shadow-sm leading-relaxed text-center">
+          <p>
+            <span class="inline-block whitespace-nowrap">「不登校と向き合ったからこそ、</span><br class="sm:hidden" />
+            <span class="inline-block whitespace-nowrap">今の私がある」</span>
+          </p>
+          <p>
+            <span class="inline-block whitespace-nowrap">「あの時間があったからこそ、</span><br class="sm:hidden" />
+            <span class="inline-block whitespace-nowrap">子どもと本当の信頼でつながれた」</span>
+          </p>
+          <p>
+            <span class="inline-block whitespace-nowrap">「あのつらい経験があったからこそ、</span><br class="sm:hidden" />
+            <span class="inline-block whitespace-nowrap">自分の人生を取り戻せた」</span>
+          </p>
+        </div>
+        <p class="text-center font-bold text-[#006B6B] text-[15px] sm:text-lg leading-relaxed">
+          <span class="inline-block whitespace-nowrap">心からそう言える日は、</span><br class="sm:hidden" />
+          <span class="inline-block whitespace-nowrap">必ずやってきます。</span>
+        </p>
+        <p class="text-[13.5px] min-[360px]:text-[14.5px] min-[390px]:text-[15.5px] sm:text-lg leading-relaxed">
+          子どものために自分を置き去りにしてきた優しいあなたへ。<br />
+          もう、誰かの顔色を伺ったり、<span class="inline-block whitespace-nowrap">世間の「正解」</span>に自分を合わせたりするのは終わりにしませんか？
+        </p>
+        <p class="font-bold text-[#008080] text-center text-[15px] min-[360px]:text-base sm:text-lg leading-relaxed">
+          <span class="inline-block whitespace-nowrap">子どもを変えるための3ヶ月ではありません。</span><br />
+          <span class="inline-block whitespace-nowrap">あなた自身が、自分の人生の主役に</span><br class="sm:hidden" />
+          <span class="inline-block whitespace-nowrap">戻るための3ヶ月です。</span>
+        </p>
+      </div>
+
+      <div class="pt-4">
+        <p class="text-lg sm:text-xl font-bold font-mincho text-[#006B6B] mb-2">
+          不登校を、笑いながら越えていく。
+        </p>
+        <p class="text-[#3D4141] text-[15px] min-[360px]:text-base sm:text-lg leading-relaxed text-center sm:text-left">
+          <span class="inline-block whitespace-nowrap">その最初の一歩を、子どもではなく、</span><br class="sm:hidden" />
+          <span class="inline-block whitespace-nowrap">あなた自身から。</span><br />
+          <span class="inline-block whitespace-nowrap">僕と一緒に、ここから始めてみませんか？</span>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- よくあるご質問 (FAQ) -->
+  <section class="py-14 sm:py-18 bg-[#E8F4F2] border-t border-[#008080]/20">
+    <div class="max-w-2xl mx-auto px-5">
+      <div class="text-center mb-8">
+        <span class="text-[#008080] text-xs tracking-widest uppercase font-semibold font-sans">Q&A</span>
+        <h2 class="text-2xl sm:text-3xl font-bold font-sans text-[#006B6B] mt-2">よくある質問</h2>
+        <div class="w-12 h-1 bg-[#008080] mx-auto mt-4 rounded-full"></div>
+      </div>
+
+      <div class="space-y-3 font-sans">
+        <!-- Q1 -->
+        <details class="group bg-white rounded-2xl gentle-border soft-shadow transition-all duration-200">
+          <summary class="flex items-center justify-between p-5 cursor-pointer list-none select-none [&::-webkit-details-marker]:hidden">
+            <div class="flex items-center gap-3">
+              <span class="inline-flex items-center justify-center w-7 h-7 rounded-full bg-[#008080] text-white font-bold text-sm shrink-0">Q</span>
+              <h3 class="font-bold text-[#006B6B] text-base sm:text-lg">
+                顔出し（カメラオン）は必要ですか？
+              </h3>
+            </div>
+            <div class="w-8 h-8 rounded-full bg-[#E8F4F2] flex items-center justify-center shrink-0 ml-3 text-stone-400 group-open:bg-[#008080]/15 group-open:text-[#008080] transition-colors">
+              <i class="fa-solid fa-chevron-down text-sm transition-transform duration-300 group-open:rotate-180"></i>
+            </div>
+          </summary>
+          <div class="px-5 pb-5 sm:px-6 sm:pb-6 text-sm sm:text-base text-[#3D4141] leading-relaxed border-t border-[#E8F4F2] pt-4 flex items-start gap-2.5">
+            <span class="font-bold text-[#008080] shrink-0 text-base">A.</span>
+            <p>
+              <strong class="text-[#006B6B]">はい、お顔を出してのご参加をお願いしています。</strong><br />
+              お互いに顔が見えることで、参加者同士が安心して本音を共有できるあたたかい場をつくりたいためです。リラックスした普段着でご参加ください。
+            </p>
+          </div>
+        </details>
+
+        <!-- Q2 -->
+        <details class="group bg-white rounded-2xl gentle-border soft-shadow transition-all duration-200">
+          <summary class="flex items-center justify-between p-5 cursor-pointer list-none select-none [&::-webkit-details-marker]:hidden">
+            <div class="flex items-center gap-3">
+              <span class="inline-flex items-center justify-center w-7 h-7 rounded-full bg-[#008080] text-white font-bold text-sm shrink-0">Q</span>
+              <h3 class="font-bold text-[#006B6B] text-base sm:text-lg">
+                見逃し配信（アーカイブ録画）はありますか？
+              </h3>
+            </div>
+            <div class="w-8 h-8 rounded-full bg-[#E8F4F2] flex items-center justify-center shrink-0 ml-3 text-stone-400 group-open:bg-[#008080]/15 group-open:text-[#008080] transition-colors">
+              <i class="fa-solid fa-chevron-down text-sm transition-transform duration-300 group-open:rotate-180"></i>
+            </div>
+          </summary>
+          <div class="px-5 pb-5 sm:px-6 sm:pb-6 text-sm sm:text-base text-[#3D4141] leading-relaxed border-t border-[#E8F4F2] pt-4 flex items-start gap-2.5">
+            <span class="font-bold text-[#008080] shrink-0 text-base">A.</span>
+            <p>
+              <strong class="text-[#006B6B]">はい、アーカイブ（録画）配信をご用意しております。</strong><br />
+              当日リアルタイムでのご参加が難しい場合や、後から何度も復習したい場合もご安心ください。受講期間中はいつでもお好きなタイミングで動画をご視聴いただけます。
+            </p>
+          </div>
+        </details>
+
+        <!-- Q3 -->
+        <details class="group bg-white rounded-2xl gentle-border soft-shadow transition-all duration-200">
+          <summary class="flex items-center justify-between p-5 cursor-pointer list-none select-none [&::-webkit-details-marker]:hidden">
+            <div class="flex items-center gap-3">
+              <span class="inline-flex items-center justify-center w-7 h-7 rounded-full bg-[#008080] text-white font-bold text-sm shrink-0">Q</span>
+              <h3 class="font-bold text-[#006B6B] text-base sm:text-lg">
+                子どもの年齢や、不登校の期間に関係なく参加できますか？
+              </h3>
+            </div>
+            <div class="w-8 h-8 rounded-full bg-[#E8F4F2] flex items-center justify-center shrink-0 ml-3 text-stone-400 group-open:bg-[#008080]/15 group-open:text-[#008080] transition-colors">
+              <i class="fa-solid fa-chevron-down text-sm transition-transform duration-300 group-open:rotate-180"></i>
+            </div>
+          </summary>
+          <div class="px-5 pb-5 sm:px-6 sm:pb-6 text-sm sm:text-base text-[#3D4141] leading-relaxed border-t border-[#E8F4F2] pt-4 flex items-start gap-2.5">
+            <span class="font-bold text-[#008080] shrink-0 text-base">A.</span>
+            <p>
+              <strong class="text-[#006B6B]">はい、どなたでもご参加いただけます。</strong><br />
+              小学生から高校生まで、また「行き渋り」の初期から「長期の不登校」まで、お子さんの年齢や状況を問わず歓迎いたします。
+            </p>
+          </div>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- 講座概要・次回募集のご案内 (情報エリア) -->
+  <section id="course-info" class="py-10 sm:py-24 bg-[#FAF8F3] scroll-mt-14 sm:scroll-mt-20">
+    <div class="max-w-3xl mx-auto px-5">
+      <div class="text-center mb-6 sm:mb-10">
+        <span class="text-[#008080] text-xs tracking-widest uppercase font-semibold">Information & Preview</span>
+        <h2 class="text-2xl sm:text-3xl font-bold font-mincho text-[#006B6B] mt-2 space-y-1.5 sm:space-y-4">
+          <span class="block">講座「母-Mother」</span>
+          <span class="block text-lg sm:text-xl font-normal text-[#333333]">〜概要と次回募集のご案内〜</span>
+        </h2>
+        <p class="text-[#3D4141]/75 text-xs sm:text-sm mt-2 leading-relaxed text-center">
+          <span class="block">不登校を笑いながら越えていく</span>
+          <span class="block text-xs sm:text-sm">〜子どもを支える3ヶ月〜</span>
+        </p>
+        <div class="w-12 h-0.5 sm:h-1 bg-[#008080] mx-auto mt-3 rounded-full"></div>
+      </div>
+
+      <div class="bg-white rounded-3xl p-5 sm:p-10 border-2 border-[#008080]/20 soft-shadow">
+        <dl class="divide-y divide-[#008080]/15 text-sm sm:text-base">
+          <div class="py-3 sm:py-4 sm:grid sm:grid-cols-3 sm:gap-4">
+            <dt class="font-bold text-[#006B6B]">開催期間</dt>
+            <dd class="mt-0.5 sm:mt-1 text-[#333333] sm:col-span-2 font-medium">
+              2026年10月 ～ 12月（3ヶ月）
+            </dd>
+          </div>
+          <div class="py-3 sm:py-4 sm:grid sm:grid-cols-3 sm:gap-4">
+            <dt class="font-bold text-[#006B6B]">受講形式・頻度</dt>
+            <dd class="mt-0.5 sm:mt-1 text-[#333333] sm:col-span-2">
+              月2回（各90分） 全5ステップ構成
+            </dd>
+          </div>
+          <div class="py-3 sm:py-4 sm:grid sm:grid-cols-3 sm:gap-4">
+            <dt class="font-bold text-[#006B6B]">募集期間（予定）</dt>
+            <dd class="mt-0.5 sm:mt-1 text-[#333333] sm:col-span-2">
+              <span class="text-[#008080] font-bold">2026年9月23日(水) 〜 9月30日(水) 23:59</span><br />
+              <span class="text-xs sm:text-sm text-[#333333]/80">（7日間限定募集・次回受付開始までお待ちください）</span>
+            </dd>
+          </div>
+          <div class="py-3 sm:py-4 sm:grid sm:grid-cols-3 sm:gap-4">
+            <dt class="font-bold text-[#006B6B]">対象</dt>
+            <dd class="mt-0.5 sm:mt-1 text-[#333333] sm:col-span-2">
+              <span class="inline-block whitespace-nowrap">不登校・登校しぶりのお子さんを支える</span><br class="sm:hidden" />
+              <span class="inline-block whitespace-nowrap">保護者の方</span>
+            </dd>
+          </div>
+          <div class="py-3 sm:py-4 sm:grid sm:grid-cols-3 sm:gap-4 items-center">
+            <dt class="font-bold text-[#C6A15B] flex items-center gap-1.5">
+              <i class="fa-solid fa-gift text-[#C6A15B]"></i> 特別特典
+            </dt>
+            <dd class="mt-0.5 sm:mt-1 text-[#C6A15B] sm:col-span-2 font-bold">
+              個別セッション 1回プレゼント
+            </dd>
+          </div>
+          <div class="py-3.5 sm:py-5 sm:grid sm:grid-cols-3 sm:gap-4 items-center">
+            <dt class="font-bold text-[#006B6B]">受講料金</dt>
+            <dd class="mt-0.5 sm:mt-1 sm:col-span-2">
+              <div class="flex items-baseline gap-3 flex-wrap">
+                <span class="text-xs sm:text-sm line-through text-stone-400">通常 99,000円</span>
+                <div class="text-2xl sm:text-3xl font-bold text-[#008080]">
+                  特別価格 66,000<span class="text-base font-bold text-[#008080]"> 円（税込）</span>
+                </div>
+              </div>
+            </dd>
+          </div>
+        </dl>
+
+        <!-- 次回募集予告・事前案内ボックス（申込みボタンの代わり） -->
+        <div class="mt-6 sm:mt-10 text-center">
+          <div class="inline-block w-full max-w-lg bg-[#FAF8F3] border-2 border-[#C6A15B]/50 rounded-2xl p-6 sm:p-7 shadow-sm">
+            <span class="inline-block bg-[#C6A15B] text-white text-xs font-bold px-3 py-1 rounded-full mb-3 shadow-sm">
+              7日間限定・次回募集予告
+            </span>
+            <p class="font-mincho font-bold text-lg sm:text-xl text-[#006B6B] leading-relaxed mb-2">
+              9月23日(水) 募集スタート 〜 9月30日(水)迄
+            </p>
+            <p class="text-xs sm:text-sm text-[#3D4141] leading-relaxed">
+              今回の募集は<strong class="text-[#006B6B]">【わずか7日間のみの限定受付】</strong>となります。<br />
+              定員に達し次第、予告なく終了となる場合がございます。<br class="hidden sm:inline" />
+              次回の開催は未定のため、募集開始をお見逃しないようご準備ください。
+            </p>
+            <div class="mt-4 pt-3 border-t border-[#008080]/15 text-xs text-[#006B6B] font-bold">
+              ※9月23日(水)の募集開始まで、今しばらくお待ちください。
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 結びのメッセージ -->
+      <div class="mt-12 text-center text-[#006B6B] text-base sm:text-lg font-mincho font-bold leading-relaxed">
+        <p>
+          <span class="inline-block whitespace-nowrap">あなたの勇気ある一歩を、</span><br class="sm:hidden" />
+          <span class="inline-block whitespace-nowrap">心よりお待ちしています。</span>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- フッター（ディープティール #006B6B 背景） -->
+  <footer class="bg-[#006B6B] text-[#FAF8F3]/90 py-10 text-center text-xs border-t border-[#005757]">
+    <div class="max-w-2xl mx-auto px-5 space-y-3">
+      <p class="font-mincho font-bold text-white text-sm leading-relaxed">
+        <span class="block">「母-Mother」</span>
+        <span class="block">不登校を、笑いながら越えていく。</span>
+        <span class="block text-xs sm:text-sm text-[#E8F4F2]">〜子どもを支える3ヶ月〜</span>
+      </p>
+      <p class="text-[#E8F4F2]/70 pt-2">&copy; 2026 ひら先生 All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    // プレビュー画面でお写真を選択した際に即座に丸枠へ反映させる処理
+    function previewTeacherPhoto(input) {
+      if (input.files && input.files[0]) {
+        const reader = new FileReader();
+        reader.onload = function (e) {
+          const img = document.getElementById("teacher-avatar-img");
+          const placeholder = document.getElementById("photo-placeholder");
+          if (img) {
+            img.src = e.target.result;
+            img.style.display = "block";
+          }
+          if (placeholder) {
+            placeholder.style.display = "none";
+          }
+          try {
+            localStorage.setItem("hira_sensei_avatar", e.target.result);
+          } catch (err) {}
+        };
+        reader.readAsDataURL(input.files[0]);
+      }
+    }
+
+    // ブラウザ保存データがあれば復元
+    window.addEventListener("DOMContentLoaded", function () {
+      const savedPhoto = localStorage.getItem("hira_sensei_avatar");
+      if (savedPhoto) {
+        const img = document.getElementById("teacher-avatar-img");
+        const placeholder = document.getElementById("photo-placeholder");
+        if (img) {
+          img.src = savedPhoto;
+          img.style.display = "block";
+        }
+        if (placeholder) {
+          placeholder.style.display = "none";
+        }
+      }
+    });
+  </script>
+
+</body>
+</html>
